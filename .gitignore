@@ -1,0 +1,38 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__
+
+# Ignore the virtual environment directory
+.venv/
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore database files
+db.sqlite3
+
+# Ignore secret keys and sensitive information
+*.secret_key
+*.env
+
+# Ignore log files
+*.log
+
+# Ignore generated media files
+media/
+
+# Ignore static files collected during development
+static/
+
+# Ignore pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore any OS or editor-specific files
+*.swp
+*~
+.DS_Store
